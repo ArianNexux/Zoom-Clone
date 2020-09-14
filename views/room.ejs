@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZOOM-CLONE BY Arian D.</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="peerjs.js"></script>
+    <script src="/socket.io/socket.io.js" ></script>
+    <script>
+        const ROOM_ID =  "<%= roomId %>";
+    </script>
+</head>
+<body>
+    <div class="main">
+
+    <div class="main_videos">
+        <div id="video-grid">
+            
+        </div>
+    </div>
+<div class="chat">
+    <div class="message">
+        <h1>Here goes a message</h1>
+    </div>
+    <div>
+        <textarea name="" id="" cols="37"  rows="4" placeholder="Escreva uma mensagem..."></textarea>
+    </div>
+</div>
+
+    <div class="footer">
+        <h1>Here goes my icons to mute and disable video</h1>
+        
+        <span><i class="fas fa-microphone"></i></span>
+    </div>
+
+</div>
+</body>
+<script src="script.js"></script>
+
+</html>
