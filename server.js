@@ -37,4 +37,4 @@ io.on('connection', socket => {
           socket.to(roomId).broadcast.emit('user-connected',userId)
       })
 })
-server.listen(3080)
+server.listen(process.env.PORT || 3080)
